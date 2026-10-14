@@ -1,1 +1,132 @@
 
+## SQL Database Schema
+
+The retail analytics database consists of eight tables designed to support sales performance, inventory management, customer analytics, product analysis, returns, promotions, and revenue target tracking.
+
+### 1. Customers Table
+
+```sql
+CREATE TABLE [dbo].[Customers]
+(
+    CustomerID VARCHAR(50) NOT NULL PRIMARY KEY,
+    CustomerName VARCHAR(50),
+    Email VARCHAR(50),
+    Segment VARCHAR(50),
+    State VARCHAR(10),
+    City VARCHAR(50),
+    SignupDate DATE,
+    Status VARCHAR(50)
+);
+```
+
+### 2. FactInventory Table
+
+```sql
+CREATE TABLE FactInventory
+(
+    SnapshotDate DATE,
+    StoreID VARCHAR(50),
+    ProductID VARCHAR(50),
+    OnHandQty INT,
+    ReorderPoint INT,
+    LeadTimeDays INT,
+    ABCClass VARCHAR(5)
+);
+```
+
+### 3. DimProducts Table
+
+```sql
+CREATE TABLE DimProducts
+(
+    ProductID VARCHAR(50) PRIMARY KEY,
+    ProductName VARCHAR(100),
+    Category VARCHAR(500),
+    Brand VARCHAR(50),
+    UnitCost DECIMAL(10,2),
+    ListPrice DECIMAL(10,2),
+    Status VARCHAR(50),
+    LaunchDate DATE
+);
+```
+
+### 4. DimStores Table
+
+```sql
+CREATE TABLE DimStores
+(
+    StoreID VARCHAR(50) PRIMARY KEY,
+    StoreName VARCHAR(100),
+    Region VARCHAR(50),
+    State VARCHAR(10),
+    City VARCHAR(50),
+    Address VARCHAR(100),
+    ZipCode VARCHAR(50),
+    OpenDate DATE,
+    Status VARCHAR(50)
+);
+```
+
+### 5. FactReturns Table
+
+```sql
+CREATE TABLE FactReturns
+(
+    ReturnID VARCHAR(50) PRIMARY KEY,
+    SalesLineID VARCHAR(50),
+    OrderID VARCHAR(50),
+    ReturnDate DATE,
+    ProductID VARCHAR(50),
+    ReturnQty INT,
+    ReturnReason VARCHAR(50),
+    ReturnStatus VARCHAR(50)
+);
+```
+
+### 6. FactPromotions Table
+
+```sql
+CREATE TABLE FactPromotions
+(
+    PromotionID VARCHAR(50) PRIMARY KEY,
+    PromotionName VARCHAR(100),
+    StartDate DATE,
+    EndDate DATE,
+    DiscountPct DECIMAL(10,2),
+    CategoryScope VARCHAR(50)
+);
+```
+
+### 7. FactTargets Table
+
+```sql
+CREATE TABLE FactTargets
+(
+    TargetMonth DATE,
+    Region VARCHAR(50),
+    RevenueTarget DECIMAL(10,2),
+    MarginTargetPct DECIMAL(10,2),
+    OrderTarget INT
+);
+```
+
+### 8. FactSales Table
+
+```sql
+CREATE TABLE FactSales
+(
+    SalesLineID VARCHAR(50),
+    OrderID VARCHAR(50),
+    OrderDate DATE,
+    CustomerID VARCHAR(50),
+    ProductID VARCHAR(50),
+    StoreID VARCHAR(50),
+    Quantity INT,
+    UnitPrice DECIMAL(10,2),
+    DiscountPct DECIMAL(10,2),
+    PromotionID VARCHAR(50),
+    SalesChannel VARCHAR(50),
+    PaymentMethod VARCHAR(50)
+);
+```
+
