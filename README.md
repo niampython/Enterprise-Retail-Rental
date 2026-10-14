@@ -16,7 +16,7 @@ The solution combines data preparation in Microsoft Fabric, SQL-based reporting,
 
 ### 1. Executive sales overview
 
-![Executive Sales Overview](images/Executive%20sales%20overview.png)
+![Executive Sales Overview](Images/Executive%20sales%20overview.png)
 
 **Purpose:** Provide a high-level view of sales, profitability, units sold, inventory value, and sales performance relative to targets.
 
@@ -29,7 +29,7 @@ The solution combines data preparation in Microsoft Fabric, SQL-based reporting,
 
 ### 2. Sales performance & customer insights
 
-![Sales Detail Dashboard](images/sales-detail.png)
+![Sales Detail Dashboard](Images/sales-detail.png)
 
 **Purpose:** Identify changes in sales performance and compare products, customers, and product categories.
 
@@ -43,7 +43,7 @@ The solution combines data preparation in Microsoft Fabric, SQL-based reporting,
 
 ### 3. Inventory summary
 
-![Inventory Summary Dashboard](images/inventory-summary.png)
+![Inventory Summary Dashboard](Images/inventory-summary.png)
 
 **Purpose:** Provide product-level visibility into stock quantities.
 
