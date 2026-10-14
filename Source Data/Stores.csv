@@ -1,0 +1,24 @@
+﻿StoreID,StoreName,Region,State,City,Address,ZipCode,OpenDate,Status
+S001,Jacksonville Store 1,Southeast ,FL,Jacksonville,109 Market Street,32420,05/02/2019,Open
+S002,Orlando Store 2,Southeast,FL,Orlando,118 Market Street,32509,11/11/2018,Open
+S003,Atlanta Store 3,Southeast,GA,Atlanta,127 Market Street,30378,09/27/2022,Open
+S004,Charlotte Store 4,Southeast,NC,Charlotte,136 Market Street,28780,08/02/2019,Open
+S005,Nashville Store 5,Southeast,TN,Nashville,145 Market Street,37382,10/26/2017,Open
+S006,New York Store 6,Northeast,NY,New York,154 Market Street,10159,06/27/2023,Open
+S007,Philadelphia Store 7,Northeast,PA,Philadelphia,163 Market Street,19604,09/26/2017,Closed
+S008,Boston Store 8,Northeast,MA,Boston,172 Market Street,02565,12/18/2019,Open
+S009,Newark Store 9,Northeast,NJ,Newark,181 Market Street,07867,12/15/2020,Open
+S010,Baltimore Store 10,Northeast ,MD,Baltimore,190 Market Street,21478,08/10/2021,Open
+S011,Chicago Store 11,MIDWEST,IL,Chicago,199 Market Street,60394,01/04/2023,Open
+S012,Columbus Store 12,Midwest,OH,Columbus,208 Market Street,4312,09/09/2018,Open
+S013,Detroit Store 13,Midwest,MI,Detroit,217 Market Street,48773,05/17/2017,Open
+S014,Indianapolis Store 14,Midwest ,IN,Indianapolis,226 Market Street,46602,06/15/2018,Open
+S015,St. Louis Store 15,Midwest,MO,St. Louis,235 Market Street,63183,10/10/2017,Open
+S016,Los Angeles Store 16,West,CA,Los Angeles,244 Market Street,90185,03/31/2017,Open
+S017,San Diego Store 17,West,CA,San Diego,253 Market Street,90608,08/13/2018,Open
+S018,Seattle Store 18,West,WA,Seattle,262 Market Street,98253,04/21/2022,Closed
+S019,Phoenix Store 19,West,AZ,Phoenix,271 Market Street,85223,01/28/2019,Open
+S020,Denver Store 20,West,CO,Denver,280 Market Street,80840,04/08/2021,Open
+S011,Chicago Store 11,MIDWEST,IL,Chicago,199 Market Street,60394,01/04/2023,Open
+S008,Boston Store 8,Northeast,MA,Boston,172 Market Street,02565,12/18/2019,Open
+S018,Seattle Store 18,West,WA,Seattle,262 Market Street,98253,04/21/2022,Closed
