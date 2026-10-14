@@ -1,6 +1,3 @@
-CREATE SCHEMA reporting;
-
-
 CREATE VIEW reporting.vw_FactSales AS
 SELECT
  *, Quantity * UnitPrice AS TotalSales
