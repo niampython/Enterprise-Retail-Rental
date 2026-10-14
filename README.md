@@ -16,7 +16,7 @@ The solution combines data preparation in Microsoft Fabric, SQL-based reporting,
 
 ### 1. Executive sales overview
 
-![Executive Sales Overview](images/Executive%20sales%20overview.png)
+C:\Users\niam_\Downloads\Executive sales overview.png
 
 **Purpose:** Provide a high-level view of sales, profitability, units sold, inventory value, and sales performance relative to targets.
 
