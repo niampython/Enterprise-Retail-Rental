@@ -29,7 +29,7 @@ The solution combines data preparation in Microsoft Fabric, SQL-based reporting,
 
 ### 2. Sales performance & customer insights
 
-![Sales Detail Dashboard](Images/sales-detail.png)
+![Sales Detail Dashboard](Images/sales%20detail.png)
 
 **Purpose:** Identify changes in sales performance and compare products, customers, and product categories.
 
@@ -43,7 +43,7 @@ The solution combines data preparation in Microsoft Fabric, SQL-based reporting,
 
 ### 3. Inventory summary
 
-![Inventory Summary Dashboard](Images/inventory-summary.png)
+![Inventory Summary Dashboard](Images/Inventory%20Summary.png)
 
 **Purpose:** Provide product-level visibility into stock quantities.
 
